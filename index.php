@@ -4,18 +4,34 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
 <body class="background-col">
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
+  
+  <script  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   <script src=getDokter2.js></script>
   <div class="card col-sm-9 align-middle">
-  <img class="card-img-top" src="img/bg.jpg" alt="Card image cap">
+  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img class="card-img-top d-block w-100" src="img/645bebf2-91fa-44d8-85fd-d9745751475f.jpeg" alt="Card image cap">
+                </div>
+                <div class="carousel-item">
+                <img class="card-img-top d-block w-100" src="img/e02a90c6-d3a9-430f-b083-335ac022f84f.jpeg" alt="Card image cap">
+                </div>
+            </div>
     <div class="card-body">
       <div class="container">
         <div class="container-fluid">
-        <h2 style="text-align:center">Jadwal Dokter</h2>
+        <h2 style="text-align:center">Jadwal Dokter <span class="bg-maroon">RSI Darus Syifa' Surabaya</span></h2>
         <br><br>
           <div class="container">
             <div class="row">
@@ -69,8 +85,8 @@
           </table>
                 <?php 
               ?>
-              <br><br>
-              <a href="#" class="btn btn-success">Kembali</a> 
+              <br>
+              <a href="../index.html" class="btn btn-success">Kembali</a> 
               <br><br>
         </div>
         </div>
